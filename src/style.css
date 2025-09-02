@@ -58,6 +58,11 @@ button {
   font-size: 1.2vw;
   border-style: none;
   font-weight: bold;
+  transition: 0.5s;
+}
+button:hover{
+  color:white;
+  font-size:1.25vw;
 }
 
 
