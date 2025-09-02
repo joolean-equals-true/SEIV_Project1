@@ -1,79 +1,153 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+/*this is the color-pallete class, just a visual for you to use*/
+.color-pallete{
+background-color:#000C0F;
+/*text*/
+color: #D4FAFE;
+/*primary*/
+color:#78ECFD;
+/*secondary*/
+color: #A4025F;
+/*accent*/
+color: #FC4414;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/*here are individual classes for each, if you want to assign
+the colors inline as you go. "color" style only changes the color of text. background-color changes everything else.*/
+.background-color{
+  background-color:#000C0F;
 }
-a:hover {
-  color: #535bf2;
+
+.text-color{
+  background-color: #D4FAFE;
+}
+
+.primary-color{
+  background-color:#78ECFD;
+}
+
+.secondary-color{
+  background-color: #A4025F;
+}
+
+.accent-color{
+  background-color: #FC4414;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+background-color:#000C0F ;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/*style for all text*/
+h1, h2, h3, p{
+  color: #78ECFD;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
+/*header specific styles*/
+h1{
+  font-size: 8vh
+}
+
+
+/*button-styles*/
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  background-color: #FC4414;
+  color:#000C0F;
+  border-radius: 30px;
+  font-size: 3vh;
+  border-style: none;
+  font-weight: bold;
 }
 
-.card {
-  padding: 2em;
+
+/*alignment classes*/
+/*Description - These are base classes to align things.
+You can use some or multiple, but don't change their alignment so it won't affect
+someone elses code.*/
+
+.center-text {
+text-align: center;
 }
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/*image-manipulation*/
+/*managing images is a pain. this is how I like to do it, 
+if you have a better way that you would like go ahead and add it under here. */
+
+/*This makes it so that any image will automatically fit in the container its in.
+just resize the container of the image to resize the image itself*/
+
+/*This style might not be needed.*/
+.image-container{
+   display: flex;
+}
+
+
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row: auto;
+  justify-items: center;
+  align-content: space-between;
+  grid-row-gap: 8vh;
+}
+
+
+/*component styles*/
+/*Button Card styles*/
+.button-card-image-container{
+  width: 20vw;
+  height: 20vh;
+  margin: 0;
+}
+
+.button-card-image-container > img   {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottom-half{
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      justify-content: center;
+      padding: 1.2vh;
+}
+
+.bottom-half > button {
+  font-size: 1vw;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.main-div{
+  align-items: center;
+}
+
+
+
+/*Id's and specific Changes*/
+/*if the class isn't enough (which a lot of the times it won't), you can use an id to edit 
+an element directly. Put your id's here for the page you are using them on.*/
+
+
+/*Home screen IDs*/
+#home-screen-header{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
