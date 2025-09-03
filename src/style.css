@@ -120,6 +120,12 @@ someone elses code.*/
 text-align: center;
 }
 
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*specifically for centering an element*/
 .center{
   margin-left: auto;
