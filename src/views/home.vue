@@ -15,7 +15,7 @@ const cs_life_img = "cs_major.jpg"
 const cs_life_button = "Life of a CS major"
 
 const learn_more_img ="learn_more.jpg"
-const learn_more_button ="How to explore and learn more"
+const learn_more_button ="Learn and Explore CS"
 
 const prepare_img ="prepare.jpg"
 const prepare_button ="How to prepare"
