@@ -34,6 +34,30 @@ the colors inline as you go. "color" style only changes the color of text. backg
   background-color: #FC4414;
 }
 
+/*Text versions. These only change the color of the text.*/
+.background-color-text{
+  color:#000C0F;
+}
+
+.text-color-text{
+  color: #D4FAFE;
+}
+
+.primary-color-text{
+  color:#78ECFD;
+}
+
+.secondary-color-text{
+  color: #A4025F;
+}
+
+.accent-color-text{
+  color: #FC4414;
+}
+
+
+
+
 body {
 background-color:#000C0F ;
 }
@@ -46,7 +70,16 @@ h1, h2, h3, p{
 
 /*header specific styles*/
 h1{
-  font-size: 4vw
+  font-size: 4vw;
+  font-weight: lighter;
+}
+h2{
+  font-size: 2.5vw;
+  font-weight:lighter;
+}
+p{
+  font-size: 1.2vw;
+
 }
 
 
@@ -58,16 +91,39 @@ button {
   font-size: 1.2vw;
   border-style: none;
   font-weight: bold;
+  transition: 0.5s;
+}
+button:hover{
+  color:white;
+  font-size:1.25vw;
+  cursor: pointer;
 }
 
+.home-button{
+  position:absolute;
+  bottom:0%;
+  left:44%;
+  font-size: 4vw;
+}
+
+.home-button:hover{
+  font-size: 4.25vw;
+}
 
 /*alignment classes*/
 /*Description - These are base classes to align things.
 You can use some or multiple, but don't change their alignment so it won't affect
 someone elses code.*/
 
+/*specifically for centering text.*/
 .center-text {
 text-align: center;
+}
+
+/*specifically for centering an element*/
+.center{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -91,6 +147,15 @@ just resize the container of the image to resize the image itself*/
 /*This style might not be needed.*/
 .image-container{
    display: flex;
+}
+
+/*This makes the image fully take up the space it is in, whithout
+stretching.*/
+.image-container > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
 }
 
 
@@ -150,4 +215,34 @@ an element directly. Put your id's here for the page you are using them on.*/
 #home-screen-header{
   margin-top: 10vh;
   margin-bottom: 10vh;
+}
+
+
+
+/*Study Screen ID's*/
+#study-graphic{
+  width: 18vw;
+  height: 32vh;
+}
+
+#study-graphic2{
+  width:19vw;
+  height:28vh;
+}
+#study-p1{
+  width: 30vw;
+}
+
+#study-p2{
+  width: 30vw;
+  background-color: #A4025F;
+  border-top-right-radius: 30px;
+}
+
+#main-study-div{
+
+}
+
+#study-column1{
+  
 }
