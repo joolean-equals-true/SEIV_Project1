@@ -1,3 +1,10 @@
+  <!--
+  Developer: Samuel Harris
+  Date: 09/3/2025
+  Description: Cool CS Facts page
+  Version: 1.0
+  -->
+
 <script setup>
 import {onMounted, ref} from 'vue'
 import { RouterLink, useRouter } from "vue-router";//router
@@ -23,9 +30,10 @@ const router = useRouter();
     </div>
   </div>
 
-  <div class="cool-facts-header">
-    <router-link :to="{name: 'Home'}"><button>Home</button></router-link>
-  </div> 
+  <!--COMMENT-->
+  <div class = flex-row>
+    <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
+  </div>
 
 </template>
 
