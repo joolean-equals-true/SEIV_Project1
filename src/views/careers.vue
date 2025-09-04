@@ -8,10 +8,11 @@ const router = useRouter();
   <div>
     <h2>Sample Text</h2>
 
-    <router-link :to="{name: 'Home'}"><button>Home</button></router-link>
   </div>
   
- 
+   <div class=flex-row>
+    <router-link :to="{ name: 'Home' }"><button class="home-button">Home</button></router-link>
+  </div>
 
 </template>
 

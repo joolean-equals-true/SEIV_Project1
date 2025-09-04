@@ -63,7 +63,7 @@ background-color:#000C0F ;
 }
 
 /*style for all text*/
-h1, h2, h3, p{
+h1, h2, h3, p, li, ul{
   color: #78ECFD;
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -81,7 +81,16 @@ p{
   font-size: 1.2vw;
 
 }
+li{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 2vw;
 
+}
+ul{
+  font-size: 1.2vw;
+
+}
 
 /*button-styles*/
 button {
