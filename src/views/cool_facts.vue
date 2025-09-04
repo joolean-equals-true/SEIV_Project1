@@ -1,7 +1,7 @@
   <!--
   Developer: Samuel Harris
   Date: 09/3/2025
-  Description: Cool CS Facts page
+  Description: Cool CS Facts page!
   Version: 1.0
   -->
 
