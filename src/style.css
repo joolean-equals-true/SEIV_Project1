@@ -120,6 +120,12 @@ someone elses code.*/
 text-align: center;
 }
 
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*specifically for centering an element*/
 .center{
   margin-left: auto;
@@ -246,3 +252,12 @@ an element directly. Put your id's here for the page you are using them on.*/
 #study-column1{
   
 }
+
+
+
+
+/*Cool Facts Screen ID's*/
+.cool-facts-header{
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;}
