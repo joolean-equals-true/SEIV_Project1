@@ -253,8 +253,27 @@ an element directly. Put your id's here for the page you are using them on.*/
   
 }
 
+#padded-column{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 5vh;
+}
 
+#prepare-graphic{
+  width:25vw;
+  height:30vh;
+}
 
+#prepare-p1{
+  width: 30vw;
+}
+
+#prepare-p2{
+  width: 30vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+}
 
 /*Cool Facts Screen ID's*/
 .cool-facts-header{

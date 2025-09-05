@@ -5,14 +5,40 @@ const router = useRouter();
 </script>
 
 <template>
-  <div>
-    <h2>Sample Text</h2>
+  <h1 class = "center-container">How to Prepare for CS</h1>
+  <div id = "main-study-div"class = "center-container"> 
+    <div id="padded-column"class = "flex-column">
+      <h2 class ="accent-color-text">Online Content</h2>
+      <p id = "prepare-graphic" class ="image-container">
+        <img src="/public/prepare_images/youtube.webp">
+      </p>
+      <p id ="prepare-p1">
+        From the get go, online content will be your best way forward
+      </p>
+      <div id = "prepare-p2">
+        <p>Bullet points will go here describe stuff</p>
+        <div class = "flex-row">
+          <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
+        </div>
+      </div> 
 
-    <router-link :to="{name: 'Home'}"><button>Home</button></router-link>
+    </div>
+      <div id="padded-column"class = "flex-column">
+        <h2 class ="accent-color-text">Personal Projects</h2>
+      <p id = "prepare-graphic" class ="image-container">
+        <img src="/public/prepare_images/keyboard cat.jpg">
+      </p>
+      <p id ="prepare-p1">
+        Most in CS have a passion project that they work with on the side, 
+        its a great way to learn and good on resumes 
+      </p>
+    </div>
+
+    </div>
+  <div class = flex-row>
+  <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
   </div>
   
- 
-
 </template>
 
 <style scoped>
