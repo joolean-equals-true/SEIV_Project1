@@ -253,15 +253,28 @@ an element directly. Put your id's here for the page you are using them on.*/
   
 }
 
+#main-prepare-div{
+  top: 0vh; /*does nothing?*/
+}
+
+#header{
+  padding-bottom: 0vh;
+}
+
+#header2{
+  align-self: center;
+}
+
 #padded-column{
   padding-left: 5vw;
   padding-right: 5vw;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
 }
 
 #prepare-graphic{
   width:25vw;
   height:30vh;
+  align-self: center;
 }
 
 #prepare-p1{
@@ -273,6 +286,18 @@ an element directly. Put your id's here for the page you are using them on.*/
   background-color: #A4025F;
   border-radius: 30px;
   align-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+#bottom-button{
+  position: relative;
+  bottom: 0vh;
+}
+
+#prepare-button{
+  inherits: false;
+  align-self: center;
 }
 
 /*Cool Facts Screen ID's*/
