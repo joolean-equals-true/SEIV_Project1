@@ -5,8 +5,32 @@ const router = useRouter();
 </script>
 
 <template>
-  <h1 id = "header" class = "center-container">How to Prepare for CS</h1>
+  <h1 id = "header" class = "center-container">CS Startoff Roadmap</h1>
   <div id = "main-prepare-div" class = "center-container"> 
+    <div id = "start-arrow-box1">
+
+    </div>
+    <div id = "start-left-text-box">
+
+    </div>
+    <div id = "start-middle-box">
+
+    </div>
+    <div id = "start-arrow-box2">
+
+    </div>
+    <div id = "start-right-text-box">
+
+    </div>
+    <div id = "start-arrow-box3">
+
+    </div>
+    <div id = "start-image-box">
+
+    </div>
+    <div id = "start-arrow-box4">
+
+    </div>
     <div id = "padded-column" class = "flex-column">
       <h2 id = "header2" class = "accent-color-text">Online Content</h2>
       <p id = "prepare-graphic" class = "image-container">
@@ -18,7 +42,7 @@ const router = useRouter();
       <div id = "prepare-p2">
         <p>Don't know how to start?</p>
         <div>
-          <router-link :to= "{name: 'Start'}"><button id = "prepare-button">Click Me</button></router-link>
+          <router-link :to= "{name: 'Home'}"><button id = "prepare-button">Click Me</button></router-link>
         </div>
       </div> 
 

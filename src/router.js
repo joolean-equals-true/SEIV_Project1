@@ -6,7 +6,8 @@ import Learn from "./views/learn.vue";
 import Career from "./views/careers.vue";
 import Cool_Fact from "./views/cool_facts.vue";
 import Study from "./views/study.vue";
-import Home from "./views/home.vue"
+import Home from "./views/home.vue";
+import Start from "./views/start.vue";
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -52,7 +53,12 @@ const router = createRouter({
       name: "Prepare",
       component: Prepare,
     },
-
+    {
+        
+      path: "/",
+      name: "Start",
+      component: Start,
+    },
 
     
   ],
