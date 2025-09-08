@@ -132,7 +132,6 @@ text-align: center;
   margin-right: auto;
 }
 
-
 .flex-row{
   display: flex;
   flex-direction: row;
@@ -223,8 +222,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-bottom: 10vh;
 }
 
-
-
 /*Study Screen ID's*/
 #study-graphic{
   width: 18vw;
@@ -254,7 +251,7 @@ an element directly. Put your id's here for the page you are using them on.*/
 }
 
 #main-prepare-div{
-  top: 0vh; /*does nothing?*/
+  align-items: flex-start;
 }
 
 #header{
@@ -271,6 +268,23 @@ an element directly. Put your id's here for the page you are using them on.*/
   padding-bottom: 10vh;
 }
 
+#start-left-text-box{
+  height: 80vh;
+}
+
+#start-arrow-box1{
+ height: 80vh;
+}
+
+#start-middle-box{
+  height: 80vh;
+  padding-bottom: 10vh;
+}
+
+#start-right-text-box{
+  padding-left: 3vw;
+}
+
 #prepare-graphic{
   width:25vw;
   height:30vh;
@@ -279,16 +293,49 @@ an element directly. Put your id's here for the page you are using them on.*/
 
 #prepare-p1{
   width: 30vw;
+  align-content: center;
+  align-items: center;
 }
 
 #prepare-p2{
-  width: 30vw;
+  width: 20vw;
   background-color: #A4025F;
   border-radius: 30px;
   align-content: center;
   align-items: center;
   text-align: center;
-  }
+  padding-bottom: 5vh;
+  align-self: center;
+}
+
+#start-p1{
+  width: 5vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+#start-p2{
+  width: 5vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: flex-end;
+}
+
+#start-p3{
+  width: 5vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 #bottom-button{
   position: relative;

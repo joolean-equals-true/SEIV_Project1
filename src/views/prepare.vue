@@ -22,17 +22,17 @@ const router = useRouter();
         </div>
       </div> 
 
-    </div>
-      <div id = "padded-column" class = "flex-column">
-        <h2  id = "header2" class = "accent-color-text">Personal Projects</h2>
-      <p id = "prepare-graphic" class = "image-container">
-        <img src = "/public/prepare_images/keyboard cat.jpg">
-      </p>
-      <p id = "prepare-p1">
-        Most in CS have a passion project that they work with on the side, 
-        its a great way to learn and good on resumes 
-      </p>
-    </div>
+      </div>
+        <div id = "padded-column" class = "flex-column">
+          <h2  id = "header2" class = "accent-color-text">Personal Projects</h2>
+        <p id = "prepare-graphic" class = "image-container">
+          <img src = "/public/prepare_images/keyboard cat.jpg">
+        </p>
+        <p id = "prepare-p1">
+          Most in CS have a passion project that they work with on the side, 
+          its a great way to learn and good on resumes 
+        </p>
+      </div>
     </div>
   <div id = "bottom-button" class = center-continer>
     <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
