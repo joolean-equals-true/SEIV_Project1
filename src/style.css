@@ -82,8 +82,8 @@ p{
 
 }
 li{
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-size: 2vw;
 
 }
@@ -262,8 +262,44 @@ an element directly. Put your id's here for the page you are using them on.*/
   
 }
 
+/*Career Screen ID's*/
+#career-middle >div{
+  margin-bottom: 0px;
+}
 
+#career-left >div{
+  margin-bottom: 0px;
+}
 
+.flex-column-career{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#career-middle-image {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+}
+
+#career-middle-button {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+ justify-content: center;
+}
+
+#career-row {
+    justify-content: space-between;
+}
+
+#career-graphic{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
 
 /*Cool Facts Screen ID's*/
 .cool-facts-header{
