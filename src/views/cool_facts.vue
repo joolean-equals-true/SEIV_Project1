@@ -12,7 +12,7 @@ import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
 const bug_img = "/public/CS-Facts/bug.jpg"
 const msg = "This is not a bug"
-const feature_page= "Feature_page"
+const feature_page= "Feature"
 
 const router = useRouter();
 </script>

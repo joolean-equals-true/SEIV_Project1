@@ -9,6 +9,8 @@ import Study from "./views/study.vue";
 import Home from "./views/home.vue"
 import Divisions from "./views/Divisions.vue"
 import Career_Next from "./views/careers_next.vue"
+import Remote from "./views/remote.vue"
+import Feature from "./views/feature_page.vue"
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -64,6 +66,18 @@ const router = createRouter({
       path: "/",
       name: "Career_Next",
       component: Career_Next,
+    },
+    {
+        
+      path: "/",
+      name: "Remote",
+      component: Remote,
+    },
+     {
+        
+      path: "/",
+      name: "Feature",
+      component: Feature,
     },
   ],
 });

@@ -87,14 +87,8 @@ ul{
 }
 
 li{
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-li{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 1.5vw;
-
+  padding-top: 0.9vh;
+  padding-bottom: 0.9vh;
 }
 ul{
   font-size: 1.2vw;
@@ -299,6 +293,10 @@ an element directly. Put your id's here for the page you are using them on.*/
   border-radius: 30px;
 }
 
+#study-p2 > li{
+
+}
+
 #main-study-div{
  justify-content: space-between;
 }
@@ -321,7 +319,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-=======
 #study-column1{
   
 }
