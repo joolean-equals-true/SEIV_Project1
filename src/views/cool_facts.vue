@@ -8,6 +8,12 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import { RouterLink, useRouter } from "vue-router";//router
+import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
+
+const bug_img = "/public/CS-Facts/bug.jpg"
+const msg = "This is not a bug"
+const feature_page= "Feature_page"
+
 const router = useRouter();
 </script>
 
@@ -27,6 +33,13 @@ const router = useRouter();
           <li>The term “computer bug” came from a moth that was stuck in a relay of the Harvard Mark II computer in
             1947.</li>
         </ul>
+      </div>
+        
+      <div class="image-container center-container">
+          <ButtonCard
+            :msg="msg"
+            :img="bug_img"
+            :link="feature_page"/>
       </div>
 
       <div class="text-color-text">
