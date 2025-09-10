@@ -26,15 +26,15 @@ const career_button ="More Careers"
             </p>
         </div>
         
-        <div id = "career-middle" class = "flex-column">
-            <h1 class ="center-text">More Career</h1>
-              <p id = "career-graphic" class = "image-container">
+        <div id = "career-next-middle" class = "flex-column-career-middle">
+            <h1 class ="center-text-career">More Careers</h1>
+              <p id = "career-graphic-middle" class = "image-container">
             <img src = "/public/career_images/career_top.png"> 
             </p>
             <p id = "career-middle-image" class = "image-container">
             <img src = "/public/career_images/career_middle2.png"> 
             </p>
-              <p id = "career-graphic" class = "image-container">
+              <p id = "career-graphic-middle" class = "image-container">
             <img src = "/public/career_images/career_bottom.png"> 
             </p>
           

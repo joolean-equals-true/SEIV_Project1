@@ -301,7 +301,27 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-bottom: 0vh;
 }
 
+#career-graphic-middle{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
 
+#career-next-middle >div{
+  margin-bottom: 0px;
+}
+.flex-column-career-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:5vh;
+}
+.center-text-career{
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
 /*Remote Screen ID's*/
 #remote-text{
   background-color: #A4025F;
