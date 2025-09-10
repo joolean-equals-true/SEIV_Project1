@@ -63,6 +63,7 @@ background-color:#000C0F ;
 }
 
 /*style for all text*/
+
 h1, h2, h3, p, li, ul{
   color: #78ECFD;
   font-family:Arial, Helvetica, sans-serif;
@@ -77,9 +78,17 @@ h2{
   font-size: 2.5vw;
   font-weight:lighter;
 }
-p{
+p, ul, li{
   font-size: 1.2vw;
+}
 
+ul{
+  margin: 0;
+}
+
+li{
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 li{
   padding-top: 15px;
@@ -111,7 +120,7 @@ button:hover{
 .home-button{
   position:absolute;
   bottom:0%;
-  left:44%;
+  left:45%;
   font-size: 4vw;
 }
 
@@ -185,6 +194,31 @@ stretching.*/
 
 
 /*component styles*/
+/*Card Styles*/
+.card-paragraph-container{
+}
+
+.card-paragraph-container > p{
+ padding: 0;
+ margin: 0;
+ font-size: 0.9vw;
+}
+
+.card-image-container{
+  height: 22vh;
+  margin: 0
+}
+
+.card-image-container > img   {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
 /*Button Card styles*/
 .button-card-image-container{
   width: 20vw;
@@ -219,6 +253,12 @@ stretching.*/
   align-items: center;
 }
 
+/*Margin-remover*/
+.margin-20{
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
 
 
 /*Id's and specific Changes*/
@@ -244,6 +284,11 @@ an element directly. Put your id's here for the page you are using them on.*/
   width:19vw;
   height:28vh;
 }
+
+#study-graphic3{
+  width:19vw;
+  height:28vh;
+}
 #study-p1{
   width: 30vw;
 }
@@ -251,13 +296,32 @@ an element directly. Put your id's here for the page you are using them on.*/
 #study-p2{
   width: 30vw;
   background-color: #A4025F;
-  border-top-right-radius: 30px;
+  border-radius: 30px;
 }
 
 #main-study-div{
-
+ justify-content: space-between;
 }
 
+#study-column2{
+  align-items: center;
+}
+
+#study-column3{
+  align-items: flex-end;
+}
+
+/*Divisions IDs*/
+#divisions-div1
+{
+  width: 26vw;
+}
+
+#divisions-div1 > h2{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+=======
 #study-column1{
   
 }
