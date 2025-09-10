@@ -301,6 +301,40 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-bottom: 0vh;
 }
 
+
+/*Remote Screen ID's*/
+#remote-text{
+  background-color: #A4025F;
+  color:#78ECFD;
+  border-radius: 40px;
+  font-size: 1vw;
+  margin-top: 1vh;
+  width: 26vw;
+  height: 25vh;
+  padding: 2vh 2vw;
+}
+
+.video-container{
+  width:22vw;
+  height:64vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  object-fit: cover;
+}
+
+.flex-column-remote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#remote-graphic{
+  width:28vw;
+  height:30vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+}
+
 /*Cool Facts Screen ID's*/
 .cool-facts-header{
   text-align: center;
