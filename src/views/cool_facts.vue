@@ -12,6 +12,7 @@ import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
 const bug_img = "/public/CS-Facts/bug.jpg"
 const msg = "This is not a bug"
+const feature_page= "Feature_page"
 
 const router = useRouter();
 </script>
@@ -37,7 +38,8 @@ const router = useRouter();
       <div class="image-container center-container">
           <ButtonCard
             :msg="msg"
-            :img="bug_img"/>
+            :img="bug_img"
+            :link="feature_page"/>
       </div>
 
       <div class="text-color-text">

@@ -7,6 +7,8 @@ import Career from "./views/careers.vue";
 import Cool_Fact from "./views/cool_facts.vue";
 import Study from "./views/study.vue";
 import Home from "./views/home.vue"
+import Feature_page from "./views/feature_page.vue";
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -53,7 +55,11 @@ const router = createRouter({
       component: Prepare,
     },
 
-
+    {
+      path: "/",
+      name: "Feature_page",
+      component: Feature_page,
+    },
     
   ],
 });
