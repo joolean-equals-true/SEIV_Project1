@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+***NOTE: THIS IS AI GENERATED. PLEASE GO BACK, AND UPDATE IT TO AVOID A BIG OL SLAP FROM PROF. NORTH***
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# SEIV_Project1
+A Vue 3 + Vite project for exploring cool facts and information about Computer Science.
+## Requirements
+- Node.js (v16 or higher recommended)
+- npm (v8 or higher recommended)
+## Dependencies
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [vue-router](https://router.vuejs.org/)
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+All dependencies are listed in [`package.json`](package.json).
+## Installation
+1. **Clone the repository:**
+```sh
+git clone https://github.com/joolean-equals-true/SEIV_Project1.git
+cd SEIV_Project1
+```
+
+2. ***Install Dependencies:***
+```sh
+npm install
+```
+
+3. ***Running the Development Server***
+```sh
+npm run dev
+```
+
+Then open http://localhost:5173 in your browser.

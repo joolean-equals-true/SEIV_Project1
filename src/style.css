@@ -63,7 +63,8 @@ background-color:#000C0F ;
 }
 
 /*style for all text*/
-h1, h2, h3, p, ul, li{
+
+h1, h2, h3, p, li, ul{
   color: #78ECFD;
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -89,7 +90,16 @@ li{
   margin-top: 8px;
   margin-bottom: 8px;
 }
+li{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.5vw;
 
+}
+ul{
+  font-size: 1.2vw;
+
+}
 
 /*button-styles*/
 button {
@@ -126,6 +136,12 @@ someone elses code.*/
 /*specifically for centering text.*/
 .center-text {
 text-align: center;
+}
+
+.center-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*specifically for centering an element*/
@@ -295,7 +311,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   align-items: flex-end;
 }
 
-
 /*Divisions IDs*/
 #divisions-div1
 {
@@ -306,3 +321,106 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
+=======
+#study-column1{
+  
+}
+
+/*Career Screen ID's*/
+#career-middle >div{
+  margin-bottom: 0px;
+}
+
+#career-left >div{
+  margin-bottom: 0px;
+}
+
+.flex-column-career{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#career-middle-image {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+}
+
+#career-middle-button {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+ justify-content: center;
+}
+
+#career-row {
+    justify-content: space-between;
+}
+
+#career-graphic{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+#career-graphic-middle{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+#career-next-middle >div{
+  margin-bottom: 0px;
+}
+.flex-column-career-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:5vh;
+}
+.center-text-career{
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+/*Remote Screen ID's*/
+#remote-text{
+  background-color: #A4025F;
+  color:#78ECFD;
+  border-radius: 40px;
+  font-size: 1vw;
+  margin-top: 1vh;
+  width: 26vw;
+  height: 25vh;
+  padding: 2vh 2vw;
+}
+
+.video-container{
+  width:22vw;
+  height:64vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  object-fit: cover;
+}
+
+.flex-column-remote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#remote-graphic{
+  width:28vw;
+  height:30vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+}
+
+/*Cool Facts Screen ID's*/
+.cool-facts-header{
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;}

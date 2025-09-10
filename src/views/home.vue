@@ -28,7 +28,7 @@ const cool_facts_link = "Cool_Fact"
 <template>
   <h1 id= "home-screen-header"class = "center-text">The World of Computer Science</h1>
   <div class = "grid">
-  <ButtonCard
+  <ButtonCard 
   :msg="study_button"
   :img="study_img"
   :link="study_link"/>

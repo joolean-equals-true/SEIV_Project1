@@ -8,6 +8,7 @@ import Cool_Fact from "./views/cool_facts.vue";
 import Study from "./views/study.vue";
 import Home from "./views/home.vue"
 import Divisions from "./views/Divisions.vue"
+import Career_Next from "./views/careers_next.vue"
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -57,6 +58,12 @@ const router = createRouter({
       path: "/",
       name: "Divisions",
       component: Divisions,
+    },
+    {
+        
+      path: "/",
+      name: "Career_Next",
+      component: Career_Next,
     },
   ],
 });
