@@ -189,9 +189,6 @@ stretching.*/
 
 /*component styles*/
 /*Card Styles*/
-.card-paragraph-container{
-}
-
 .card-paragraph-container > p{
  padding: 0;
  margin: 0;
@@ -211,6 +208,24 @@ stretching.*/
   object-fit: cover;
 }
 
+.large-card-image-container{
+    height: 55vh;
+  margin: 0
+}
+
+.large-card-image-container > img   {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.large-card-paragraph-container > p{
+ padding: 0;
+ margin: 0;
+ font-size: 0.9vw;
+}
 
 
 /*Button Card styles*/
@@ -293,10 +308,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   border-radius: 30px;
 }
 
-#study-p2 > li{
-
-}
-
 #main-study-div{
  justify-content: space-between;
 }
@@ -319,9 +330,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-top: 2vh;
   margin-bottom: 2vh;
 }
-#study-column1{
-  
-}
 
 /*Career Screen ID's*/
 #career-middle >div{
@@ -332,7 +340,7 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-bottom: 0px;
 }
 
-.flex-column-career{
+.flex-column-career{/*This is also not an ID*/
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -372,7 +380,7 @@ an element directly. Put your id's here for the page you are using them on.*/
 #career-next-middle >div{
   margin-bottom: 0px;
 }
-.flex-column-career-middle{
+.flex-column-career-middle{/*Just a note, this is not an id, and shouldn't be lumped with ID's.*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -421,3 +429,25 @@ an element directly. Put your id's here for the page you are using them on.*/
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 5vh;}
+
+
+  /*CS Life ID's*/
+  #cs-life-div1{
+    width: 28vw;
+    align-items: center;
+  }
+  #main-cs-life-div{
+    justify-content: space-evenly;
+  }
+  #cs-life-button{
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+  #h2-cs-life{
+    margin: 0;
+  }
+  #main-cs-life-header{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
