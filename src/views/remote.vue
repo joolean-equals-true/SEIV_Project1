@@ -45,7 +45,7 @@ const career_next_link = "Career_Next"
         </div>
     </div>
    <div class=flex-row>
-    <router-link :to="{ name: 'Home' }"><button class="home-button">Back</button></router-link>
+    <router-link :to="{ name: 'Cs_Life' }"><button class="home-button">Back</button></router-link>
   </div>
 
 </template>
