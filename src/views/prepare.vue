@@ -21,7 +21,6 @@ const router = useRouter();
           <router-link :to= "{name: 'Start'}"><button id = "prepare-button">Click Me</button></router-link>
         </div>
       </div> 
-
       </div>
         <div id = "padded-column" class = "flex-column">
           <h2  id = "header2" class = "accent-color-text">Personal Projects</h2>
@@ -37,7 +36,6 @@ const router = useRouter();
   <div id = "bottom-button" class = center-continer>
     <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
   </div>
-
 </template>
 
 <style scoped>
