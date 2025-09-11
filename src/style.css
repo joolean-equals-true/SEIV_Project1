@@ -544,6 +544,7 @@ an element directly. Put your id's here for the page you are using them on.*/
 }
 
 #prepare-p1{
+  margin-left: 3vw;
   width: 30vw;
   align-content: center;
   align-items: center;

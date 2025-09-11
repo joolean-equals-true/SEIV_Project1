@@ -22,8 +22,8 @@ const router = useRouter();
         </div>
       </div> 
       </div>
-        <div id = "padded-column" class = "flex-column">
-          <h2  id = "header2" class = "accent-color-text">Personal Projects</h2>
+        <div id = "prepare-padded-column" class = "flex-column">
+          <h2  id = "prepare-header2" class = "accent-color-text">Personal Projects</h2>
         <p id = "prepare-graphic" class = "image-container">
           <img src = "/public/prepare_images/keyboard cat.jpg">
         </p>
