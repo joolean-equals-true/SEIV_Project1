@@ -6,6 +6,8 @@ import Learn from "./views/learn.vue";
 import Career from "./views/careers.vue";
 import Cool_Fact from "./views/cool_facts.vue";
 import Study from "./views/study.vue";
+import Home from "./views/home.vue";
+import Start from "./views/start.vue";
 import Home from "./views/home.vue"
 import Divisions from "./views/Divisions.vue"
 import Career_Next from "./views/careers_next.vue"
@@ -54,6 +56,13 @@ const router = createRouter({
       name: "Prepare",
       component: Prepare,
     },
+    {
+        
+      path: "/",
+      name: "Start",
+      component: Start,
+    },
+
       {
       path: "/",
       name: "Divisions",
