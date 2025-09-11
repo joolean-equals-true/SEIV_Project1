@@ -63,7 +63,8 @@ background-color:#000C0F ;
 }
 
 /*style for all text*/
-h1, h2, h3, p{
+
+h1, h2, h3, p, li, ul{
   color: #78ECFD;
   font-family:Arial, Helvetica, sans-serif;
 }
@@ -77,11 +78,28 @@ h2{
   font-size: 2.5vw;
   font-weight:lighter;
 }
-p{
+p, ul, li{
+  font-size: 1.2vw;
+}
+
+ul{
+  margin: 0;
+}
+
+li{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+li{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.5vw;
+
+}
+ul{
   font-size: 1.2vw;
 
 }
-
 
 /*button-styles*/
 button {
@@ -102,7 +120,7 @@ button:hover{
 .home-button{
   position:absolute;
   bottom:0%;
-  left:44%;
+  left:45%;
   font-size: 4vw;
 }
 
@@ -175,6 +193,31 @@ stretching.*/
 
 
 /*component styles*/
+/*Card Styles*/
+.card-paragraph-container{
+}
+
+.card-paragraph-container > p{
+ padding: 0;
+ margin: 0;
+ font-size: 0.9vw;
+}
+
+.card-image-container{
+  height: 22vh;
+  margin: 0
+}
+
+.card-image-container > img   {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
 /*Button Card styles*/
 .button-card-image-container{
   width: 20vw;
@@ -209,11 +252,20 @@ stretching.*/
   align-items: center;
 }
 
+
 .start-grid-div{
   display: grid;
   grid-template-columns: [column-start column1] 3vw [column2] 30vw [column3] 30vw [column4] 30vw [column5] 2vw [column6 column-end];
   grid-template-rows: [row-start row1] 5vh [row2] 30vh [row3] 25vh [row4] 10vh [row5] 5vh [row6] 10vh [row7 row-end];
 }
+
+/*Margin-remover*/
+.margin-20{
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+
 
 .start-grid-div img {
   max-width: 100%;
@@ -243,6 +295,11 @@ an element directly. Put your id's here for the page you are using them on.*/
   height:28vh;
 }
 
+#study-graphic3{
+  width:19vw;
+  height:28vh;
+}
+
 #study-p1{
   width: 30vw;
 }
@@ -250,16 +307,36 @@ an element directly. Put your id's here for the page you are using them on.*/
 #study-p2{
   width: 30vw;
   background-color: #A4025F;
-  border-top-right-radius: 30px;
+  border-radius: 30px;
 }
 
 #main-study-div{
-
+ justify-content: space-between;
 }
 
+#study-column2{
+  align-items: center;
+}
+
+#study-column3{
+  align-items: flex-end;
+}
+
+/*Divisions IDs*/
+#divisions-div1
+{
+  width: 26vw;
+}
+
+#divisions-div1 > h2{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+=======
 #study-column1{
   
 }
+
 
 #main-prepare-div{
   align-items: flex-start;
@@ -397,6 +474,98 @@ an element directly. Put your id's here for the page you are using them on.*/
 #prepare-button{
   inherits: false;
   align-self: center;
+
+/*Career Screen ID's*/
+#career-middle >div{
+  margin-bottom: 0px;
+}
+
+#career-left >div{
+  margin-bottom: 0px;
+}
+
+.flex-column-career{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#career-middle-image {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+}
+
+#career-middle-button {
+  width: 28vw;
+  height: 32vh;
+  margin-bottom: 20px;
+ justify-content: center;
+}
+
+#career-row {
+    justify-content: space-between;
+}
+
+#career-graphic{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+#career-graphic-middle{
+  width:22vw;
+  height:18vh;
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+#career-next-middle >div{
+  margin-bottom: 0px;
+}
+.flex-column-career-middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:5vh;
+}
+.center-text-career{
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+/*Remote Screen ID's*/
+#remote-text{
+  background-color: #A4025F;
+  color:#78ECFD;
+  border-radius: 40px;
+  font-size: 1vw;
+  margin-top: 1vh;
+  width: 26vw;
+  height: 25vh;
+  padding: 2vh 2vw;
+}
+
+.video-container{
+  width:22vw;
+  height:64vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
+  object-fit: cover;
+}
+
+.flex-column-remote{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#remote-graphic{
+  width:28vw;
+  height:30vh;
+  margin-top: 2vh;
+  margin-bottom: 0vh;
 }
 
 /*Cool Facts Screen ID's*/
