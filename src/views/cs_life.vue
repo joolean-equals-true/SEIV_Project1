@@ -22,12 +22,12 @@ const in_office_img = "/public/cs_life_images/in_office.png"
       <router-link :to="{name: 'Remote'}"><button id ="cs-life-button">Learn More</button></router-link>
       </div>
       <div id ="cs-life-div1" class = "flex-column">
-        <h2 id = "h2-cs-life" class = "accent-color-text">In-Office</h2>
+        <h2 id = "h2-cs-life" class = "accent-color-text">Try-Hard</h2>
         <LargeCard
       :msg="in_office_msg"
       :img="in_office_img"
       />
-      <router-link :to="{name: 'Remote'}"><button id ="cs-life-button">Learn More</button></router-link>
+      <router-link :to="{name: 'Office'}"><button id ="cs-life-button">Learn More</button></router-link>
       </div>
 
     </div>

@@ -5,10 +5,10 @@ const router = useRouter();
 </script>
 
 <template>
-  <h1 id = "header" class = "center-container">How to Prepare for CS</h1>
+  <h1 id = "prepare-header" class = "center-container">How to Prepare for CS</h1>
   <div id = "main-prepare-div" class = "center-container"> 
-    <div id = "padded-column" class = "flex-column">
-      <h2 id = "header2" class = "accent-color-text">Online Content</h2>
+    <div id = "prepare-padded-column" class = "flex-column">
+      <h2 id = "prepare-header2" class = "accent-color-text">Online Content</h2>
       <p id = "prepare-graphic" class = "image-container">
         <img src = "/public/prepare_images/youtube.webp">
       </p>
@@ -33,7 +33,7 @@ const router = useRouter();
         </p>
       </div>
     </div>
-  <div id = "bottom-button" class = center-continer>
+  <div id = "AN-bottom-button" class = center-continer>
     <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
   </div>
 </template>

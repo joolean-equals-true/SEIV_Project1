@@ -10,8 +10,10 @@ import Home from "./views/home.vue";
 import Start from "./views/start.vue";
 import Divisions from "./views/Divisions.vue"
 import Career_Next from "./views/careers_next.vue"
-import Remote from "./views/remote.vue"
-import Feature from "./views/feature_page.vue"
+import Remote from "./views/remote.vue";
+import Feature from "./views/feature_page.vue";
+import Office from "./views/in_office.vue";
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
@@ -86,6 +88,11 @@ const router = createRouter({
       path: "/",
       name: "Feature",
       component: Feature,
+    },
+    {
+      path: "/",
+      name: "Office",
+      component: Office, 
     },
   ],
 });
