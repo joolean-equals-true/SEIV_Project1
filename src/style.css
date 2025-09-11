@@ -598,3 +598,11 @@ an element directly. Put your id's here for the page you are using them on.*/
   inherits: false;
   align-self: center;
 }
+
+#center-text-feature{
+  text-align: center;
+  width: 25vw;
+  height: 25vh;
+  margin-left: auto;
+  margin-right: auto;
+}
