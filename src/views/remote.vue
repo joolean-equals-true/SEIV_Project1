@@ -24,13 +24,13 @@ const career_next_link = "Career_Next"
         </div>
         
         <div id = "career-middle" class = "flex-column">
-            <h1 class ="center-text">Remote</h1>
+            <h1 class ="center-text-career">Casual</h1>
             <p id = "career-middle-image" class = "image-container">
             <img src = "/public/remote_images/remote_middle.png"> 
             </p>
             
             <p id = "remote-text">
-             Working a remote or work-from-home job in computer science often means flexibility and independence, but also responsibility for managing your own time. A typical day might include focused coding sessions, team stand-up meetings, and asynchronous collaboration with colleagues across different time zones. While remote work eliminates commuting and allows for a personalized workspace, it also requires discipline to avoid distractions and maintain work-life balance. Many professionals find that remote computer science jobs offer both autonomy and opportunities to contribute to global teams.
+            The casual life of a computer science major often blends long stretches of coding with laid-back routines of everyday student life. Much of the day may be spent in front of a laptop, whether debugging a stubborn program, collaborating on a group project, or exploring personal coding side projects for fun. Outside of coursework, downtime is usually filled with hanging out with friends, grabbing quick meals, gaming, or watching shows as a way to decompress after hours of problem-solving. Many CS majors also enjoy casual tech discussions—sharing memes about coding struggles or geeking out about the latest gadgets—so the line between work and hobbies can blur. Overall, it’s a mix of focused productivity and relaxed social time, with a rhythm shaped by projects, deadlines, and plenty of caffeine.
             </p>
           
         </div>

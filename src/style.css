@@ -398,7 +398,7 @@ an element directly. Put your id's here for the page you are using them on.*/
   font-size: 1vw;
   margin-top: 1vh;
   width: 26vw;
-  height: 25vh;
+  height: auto;
   padding: 2vh 2vw;
 }
 
