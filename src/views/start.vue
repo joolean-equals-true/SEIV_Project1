@@ -49,7 +49,7 @@ const router = useRouter();
       </div>
     </div>
   </div>
-  <div id = "bottom-button" class = center-continer>
+  <div id = "AN-bottom-button" class = center-continer>
     <router-link :to="{name: 'Home'}"><button class = "home-button">Home</button></router-link>
   </div>
 
