@@ -23,13 +23,13 @@ const career_next_link = "Career_Next"
         </div>
         
         <div id = "career-middle" class = "flex-column">
-            <h1 class ="center-text">In Office</h1>
+            <h1 class ="center-text">Try-Hard</h1>
             <p id = "career-middle-image" class = "image-container">
             <img src = "/public/office_images/image 37.png"> 
             </p>
             
             <p id = "remote-text">
-            Working in an office provides a structured environment. It helps build a sense of community among peers. In person collaboration helps improve problem solving skills, communication skills, and strengthens the bond of teamwork.
+            The try-hard life of a computer science major is often defined by an intense focus on academics, projects, and career preparation. Days are carefully scheduled around classes, coding marathons, and late nights spent refining assignments until every edge case is covered. Many hours are dedicated to mastering algorithms, contributing to open-source projects, or building portfolios packed with side projects to impress recruiters. Networking events, hackathons, and internship applications become part of the weekly grind, with free time often sacrificed for productivity. It helps build a sense of community among peers. In person collaboration helps improve problem solving skills, communication skills, and strengthens the bond of teamwork.
             </p>          
         </div>
             <div id = "career-right" class = "flex-column-remote">
@@ -43,7 +43,7 @@ const career_next_link = "Career_Next"
         </div>
     </div>
    <div class=flex-row>
-    <router-link :to="{ name: 'Home' }"><button class="home-button">Back</button></router-link>
+    <router-link :to="{ name: 'Cs_Life' }"><button class="home-button">Back</button></router-link>
   </div>
 
 </template>
