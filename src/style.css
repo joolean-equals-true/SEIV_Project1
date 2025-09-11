@@ -200,21 +200,21 @@ stretching.*/
 }
 
 .card-image-container > img   {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .large-card-image-container{
-    height: 55vh;
+  height: 55vh;
   margin: 0
 }
 
 .large-card-image-container > img   {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -235,18 +235,18 @@ stretching.*/
 }
 
 .button-card-image-container > img   {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .bottom-half{
-      border-bottom-left-radius: 30px;
-      border-bottom-right-radius: 30px;
-      justify-content: center;
-      padding: 1.2vh;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  justify-content: center;
+  padding: 1.2vh;
 }
 
 .bottom-half > button {
@@ -261,13 +261,23 @@ stretching.*/
   align-items: center;
 }
 
+.start-grid-div{
+  display: grid;
+  grid-template-columns: [column-start column1] 3vw [column2] 30vw [column3] 30vw [column4] 30vw [column5] 2vw [column6 column-end];
+  grid-template-rows: [row-start row1] 5vh [row2] 30vh [row3] 25vh [row4] 10vh [row5] 5vh [row6] 10vh [row7 row-end];
+}
+
+.start-grid-div img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
 /*Margin-remover*/
 .margin-20{
   margin-top: 20px;
   margin-bottom: 20px
 }
-
-
 
 /*Id's and specific Changes*/
 /*if the class isn't enough (which a lot of the times it won't), you can use an id to edit 
@@ -279,8 +289,6 @@ an element directly. Put your id's here for the page you are using them on.*/
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
-
 
 /*Study Screen ID's*/
 #study-graphic{
@@ -297,6 +305,7 @@ an element directly. Put your id's here for the page you are using them on.*/
   width:19vw;
   height:28vh;
 }
+
 #study-p1{
   width: 30vw;
 }
@@ -450,3 +459,142 @@ an element directly. Put your id's here for the page you are using them on.*/
     margin-top: 2vh;
     margin-bottom: 2vh;
   }
+
+/*prepare and start pages*/
+  #main-prepare-div{
+  align-items: flex-start;
+}
+
+#prepare-header{
+  padding-bottom: 0vh;
+  margin-bottom: 0vh;
+  margin-top: 1vh;
+}
+
+#prepare-header2{
+  align-self: center;
+}
+
+#prepare-padded-column{
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 10vh;
+}
+
+#start-arrow-box1{
+  grid-column: column1 / column2;
+  grid-row: row1 / row5;
+}
+
+#start-left-text-box{
+  grid-column: column2 / column3;
+  grid-row: row1 / row5;
+}
+
+#start-middle-top-box{
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: column3 / column4;
+  grid-row: row1 / row4;
+}
+
+#start-middle-bottom-box{
+  margin-left: auto;
+  margin-right: auto;
+  align-content: end;
+  grid-column: column3 / column4;
+  grid-row: row3 / row5;
+}
+
+#start-arrow-box2{
+  grid-column: column4 / column5;
+  grid-row: row1 / row2;
+}
+
+#start-right-text-box{
+  grid-column: column4 / column5;
+  grid-row: row2 / row3;
+}
+
+#start-right-box{
+  margin-top: 0;
+  grid-column: column4 / column5;
+  grid-row: row3 / row4;
+}
+
+#start-image-box{
+  grid-column: column4 / column6;
+  grid-row: row4 / row6;
+}
+
+#start-arrow-box3{
+  grid-column: column5 / column6;
+  grid-row: row1 / row5;
+}
+
+#start-arrow-box4{
+  grid-column: column1 / column4;
+  grid-row: row5 / row6;
+}
+
+#prepare-graphic{
+  width:25vw;
+  height:30vh;
+  align-self: center;
+}
+
+#prepare-p1{
+  width: 30vw;
+  align-content: center;
+  align-items: center;
+}
+
+#prepare-p2{
+  width: 20vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2vh;
+  align-self: center;
+}
+
+#start-p1{
+  width: 5vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+#start-p2{
+  width: 8vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  align-self: flex-end;
+}
+
+#start-p3{
+  width: 8vw;
+  background-color: #A4025F;
+  border-radius: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#AN-bottom-button{
+  position: relative;
+  bottom: 0vh;
+}
+
+#prepare-button{
+  inherits: false;
+  align-self: center;
+}
