@@ -7,8 +7,11 @@ const router = useRouter();
 <template>
   <div>
     <div class="cool-facts-header">
-    <h1>It's a feature!</h1>
-  </div>
+      <h1>It's a feature!</h1>
+      <p id = "center-text-feature" class = "image-container">
+            <img src = "/public/CS-Facts/monkey.jpg"> </img>
+      </p>
+    </div>
 
   </div>
   
