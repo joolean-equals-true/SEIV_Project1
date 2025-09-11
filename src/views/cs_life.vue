@@ -27,7 +27,7 @@ const in_office_img = "/public/cs_life_images/in_office.png"
       :msg="in_office_msg"
       :img="in_office_img"
       />
-      <router-link :to="{name: 'Remote'}"><button id ="cs-life-button">Learn More</button></router-link>
+      <router-link :to="{name: 'Office'}"><button id ="cs-life-button">Learn More</button></router-link>
       </div>
 
     </div>
