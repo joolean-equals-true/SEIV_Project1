@@ -41,7 +41,7 @@ const career_button ="More Careers"
           
         </div>
                 <div id = "career-right" class = "flex-column-career">
-            <h2 class ="accent-color-text">Network Admin</h2>
+            <h2 class ="accent-color-text">Network Admins</h2>
             <p id = "career-graphic" class = "image-container">
             <img src = "/public/career_images/career_network.png"> </p>
             <p id ="study-p1">Manages and secures computer networks within an organization, ensuring smooth connectivity and performance. They troubleshoot issues and maintain hardware, software, and security protocols.
