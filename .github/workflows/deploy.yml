@@ -25,13 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
       - name: Build
         run: npx vite build
 
       - name: List build output
         run: ls -R dist
-
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.1
