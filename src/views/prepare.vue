@@ -10,7 +10,7 @@ const router = useRouter();
     <div id = "prepare-padded-column" class = "flex-column">
       <h2 id = "prepare-header2" class = "accent-color-text">Online Content</h2>
       <p id = "prepare-graphic" class = "image-container">
-        <img src = "/public/prepare_images/youtube.webp">
+        <img src = "/prepare_images/youtube.webp">
       </p>
       <p id = "prepare-p1">
         From the get go, online content will be your best way forward
@@ -25,7 +25,7 @@ const router = useRouter();
         <div id = "prepare-padded-column" class = "flex-column">
           <h2  id = "prepare-header2" class = "accent-color-text">Personal Projects</h2>
         <p id = "prepare-graphic" class = "image-container">
-          <img src = "/public/prepare_images/keyboard cat.jpg">
+          <img src = "/prepare_images/keyboard cat.jpg">
         </p>
         <p id = "prepare-p1">
           Most in CS have a passion project that they work with on the side, 

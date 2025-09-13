@@ -15,10 +15,10 @@ const career_next_link = "Career_Next"
         
         <div id = "career-left" class = "flex-column-remote">
             <p id = "remote-graphic" class = "image-container">
-            <img src = "/public/office_images/image 36-1.png"> </p>
+            <img src = "/office_images/image 36-1.png"> </p>
 
             <p id = "remote-graphic" class = "image-container">
-            <img src = "/public/office_images/image36-2.png"> </p>
+            <img src = "/office_images/image36-2.png"> </p>
         
         </div>
         

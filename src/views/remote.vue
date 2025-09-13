@@ -19,14 +19,14 @@ const career_next_link = "Career_Next"
             Your browser does not support the video tag.
             </video>
             <p id = "remote-graphic" class = "image-container">
-            <img src = "/public/remote_images/remote_left.png"> </p>
+            <img src = "/remote_images/remote_left.png"> </p>
         
         </div>
         
         <div id = "career-middle" class = "flex-column">
             <h1 class ="center-text-career">Casual</h1>
             <p id = "career-middle-image" class = "image-container">
-            <img src = "/public/remote_images/remote_middle.png"> 
+            <img src = "/remote_images/remote_middle.png"> 
             </p>
             
             <p id = "remote-text">
@@ -40,7 +40,7 @@ const career_next_link = "Career_Next"
             Your browser does not support the video tag.
             </video>
             <p id = "remote-graphic" class = "image-container">
-            <img src = "/public/remote_images/remote_right.png"> </p>
+            <img src = "/remote_images/remote_right.png"> </p>
         
         </div>
     </div>

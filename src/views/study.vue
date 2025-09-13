@@ -4,10 +4,10 @@ import { RouterLink, useRouter } from "vue-router";//router
 const router = useRouter();
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
-const career_img = "/public/careers.jpg"
+const career_img = "/careers.jpg"
 const careers_button = "Possible Careers"
 const career_link = "Career"
-const divisions_img = "/public/divisions_images/divisions-image1.jpg"
+const divisions_img = "/divisions_images/divisions-image1.jpg"
 const divisions_button = "Divisions"
 const divisions_link = "Divisions"
 </script>
@@ -19,7 +19,7 @@ const divisions_link = "Divisions"
   <div id="study-column1"class = "flex-column">
     <h2 class ="accent-color-text">New understanding</h2>
     <p id = "study-graphic2" class ="image-container">
-      <img src="/public/study_images/study-graphic2.jpg">
+      <img src="/study_images/study-graphic2.jpg">
     </p>
     <p id ="study-p1">Studying computer science will give you a large level
       of new knowledge about computing concepts that are used everyday in your life!
@@ -53,7 +53,7 @@ const divisions_link = "Divisions"
   <div id = "study-column2" class = "flex-column">
     <h1 class ="center-text margin-20">Study</h1>
     <p id= "study-graphic"class = "image-container margin-20">
-      <img src ="/public/study_images/study-graphic.jpg">
+      <img src ="/study_images/study-graphic.jpg">
     </p>
 
      
@@ -66,7 +66,7 @@ const divisions_link = "Divisions"
   <div id= "study-column3"class = "flex-column">
     <h2 class = "accent-color-text">Career Opportunities</h2>
     <p id = "study-graphic3" class ="image-container">
-      <img src="/public/study_images/study-graphic3.jpg">
+      <img src="/study_images/study-graphic3.jpg">
     </p>
     <p id ="study-p1">The career opportunities that are availble for those who have firm understanding
       of computer science is vast... The amount of possible jobs is nearly endless, with so many different

@@ -10,7 +10,7 @@ import { onMounted, ref } from 'vue'
 import { RouterLink, useRouter } from "vue-router";//router
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
-const bug_img = "/public/CS-Facts/bug.jpg"
+const bug_img = "/CS-Facts/bug.jpg"
 const msg = "This is not a bug"
 const feature_page= "Feature"
 
