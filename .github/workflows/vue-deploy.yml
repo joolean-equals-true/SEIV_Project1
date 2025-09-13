@@ -1,4 +1,4 @@
-name: DEPLOY TO AWS
+name: DEPLOY TO STAGING
 
 on:
   pull_request:
