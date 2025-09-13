@@ -26,8 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build Vue project
-        run: npm run build
+      - name: Build
+        run: npx vite build
 
       - name: List build output
         run: ls -R dist
