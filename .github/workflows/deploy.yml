@@ -25,8 +25,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Build
+
+      - name: Build Vue project
         run: npx vite build
 
       - name: List build output
