@@ -5,10 +5,10 @@ const router = useRouter();
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
 //Props to pass to each component
-const study_img = "/public/why-study.png"
+const study_img = "why-study.png"
 const study_button = "Why you should study"
 const study_link = "Study"
-const career_img = "/public/careers.jpg"
+const career_img = "careers.jpg"
 const careers_button = "Possible Careers"
 const career_link = "Career"
 const cs_life_img = "cs_major.jpg"

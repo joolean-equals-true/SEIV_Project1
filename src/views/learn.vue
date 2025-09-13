@@ -10,7 +10,7 @@ const router = useRouter();
     <div id = "prepare-padded-column" class = "flex-column">
       <h2 id = "prepare-header2" class = "accent-color-text">Learn to Code</h2>
       <p id = "prepare-graphic" class = "image-container">
-        <img src = "/public/codewall.jpg">
+        <img src = "/codewall.jpg">
       </p>
       <p id = "prepare-p1">
         Web Apps
@@ -27,7 +27,7 @@ const router = useRouter();
         <div id = "prepare-padded-column" class = "flex-column">
           <h2  id = "prepare-header2" class = "accent-color-text">What can be Accomplished</h2>
         <p id = "prepare-graphic" class = "image-container">
-          <img src = "/public/dashboard.jpg">
+          <img src = "/dashboard.jpg">
         </p>
         <p id = "prepare-p1">
           https://store.steampowered.com/
