@@ -3,12 +3,11 @@ name: DEPLOY TO AWS
 on:
   push:
     branches:
-      -dev
+      -dev #added comment
   pull_request:
     types: [closed]
     branches:
       - dev
-#this was added to fix any of the errors.
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -26,12 +25,12 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Fix Vite permissions
-        run: chmod +x ./node_modules/.bin/vite
 
       - name: Build Vue project
         run: npx vite build
+
+      - name: List build output
+        run: ls -R dist
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.1
