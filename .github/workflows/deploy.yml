@@ -5,7 +5,7 @@ on:
     types: [closed]
     branches:
       - dev
-
+#this was added to fix any of the errors.
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
