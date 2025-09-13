@@ -29,6 +29,10 @@ jobs:
 
       - name: Build Vue project
         run: npm run build
+        
+      - name: List build output
+        run: ls -R dist
+
 
       - name: Deploy to Server
         uses: easingthemes/ssh-deploy@v2.1.1
