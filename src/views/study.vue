@@ -4,10 +4,10 @@ import { RouterLink, useRouter } from "vue-router";//router
 const router = useRouter();
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
 
-const career_img = "/careers.jpg"
+const career_img = "careers.jpg"
 const careers_button = "Possible Careers"
 const career_link = "Career"
-const divisions_img = "/divisions_images/divisions-image1.jpg"
+const divisions_img = "divisions_images/divisions-image1.jpg"
 const divisions_button = "Divisions"
 const divisions_link = "Divisions"
 </script>

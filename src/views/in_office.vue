@@ -4,7 +4,7 @@ import { RouterLink, useRouter } from "vue-router";//router
 const router = useRouter();
 
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
-const career_img = "/career_images/career_button.png"
+const career_img = "career_images/career_button.png"
 const career_button ="More Careers"
 const career_next_link = "Career_Next"
 </script>
@@ -23,7 +23,7 @@ const career_next_link = "Career_Next"
         </div>
         
         <div id = "career-middle" class = "flex-column">
-            <h1 class ="center-text">Try-Hard</h1>
+            <h1 id = "try-hardh1" class ="center-text">Try-Hard</h1>
             <p id = "career-middle-image" class = "image-container">
             <img src = "/public/office_images/image 37.png"> 
             </p>
