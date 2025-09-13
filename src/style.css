@@ -311,7 +311,7 @@ an element directly. Put your id's here for the page you are using them on.*/
 }
 
 #study-p2{
-  width: 30vw;
+  width: 24vw;
   background-color: #A4025F;
   border-radius: 30px;
 }
@@ -606,4 +606,8 @@ an element directly. Put your id's here for the page you are using them on.*/
   height: 25vh;
   margin-left: auto;
   margin-right: auto;
+}
+
+#try-hardh1{
+  font-size: 2.8vw;
 }

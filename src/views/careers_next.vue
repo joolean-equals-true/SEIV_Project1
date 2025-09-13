@@ -4,8 +4,6 @@ import { RouterLink, useRouter } from "vue-router";//router
 const router = useRouter();
 
 import ButtonCard from '../components/ButtonCard.vue';//ButtonCard components
-const career_img = "/career_images/career_button.png"
-const career_button ="More Careers"
 </script>
 
 <template>
