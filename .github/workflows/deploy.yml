@@ -26,6 +26,12 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install dependencies for vite
+        run: npm ci
+
+      - name: Fix vite permissions
+        run: chmod +x node_modules/.bin/vite
+
       - name: Build Vue project
         run: npx vite build
 
