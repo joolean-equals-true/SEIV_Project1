@@ -1,4 +1,4 @@
-***NOTE: THIS IS AI GENERATED. PLEASE GO BACK, AND UPDATE IT TO AVOID A BIG OL SLAP FROM PROF. NORTH***
+
 
 # SEIV_Project1
 A Vue 3 + Vite project for exploring cool facts and information about Computer Science.
