@@ -3,7 +3,7 @@ name: DEPLOY TO AWS
 on:
   push:
     branches:
-      -dev #added comment
+      -dev #added comment to push
   pull_request:
     types: [closed]
     branches:
